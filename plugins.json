@@ -2,8 +2,8 @@
   {
     "name": "GramFlix Wooka",
     "internalName": "gramflix_wooka",
-    "url": "https://cdn.jsdelivr.net/gh/tOntOnbOuLii/GramFlix@builds/GramFlixWooka.cs3",
-    "version": 2,
+    "url": "https://cdn.jsdelivr.net/gh/tOntOnbOuLii/GramFlix@b99f75035c54d6904dc5be1d967cfd30a26e0185/GramFlixWooka.cs3",
+    "version": 4,
     "apiVersion": 1,
     "status": 1,
     "language": "fr",
