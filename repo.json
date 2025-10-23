@@ -1,8 +1,8 @@
 {
   "name": "GramFlix",
-  "description": "Repo CloudStream minimal (WookaFR)",
+  "description": "Repo CloudStream (WookaFR)",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/refs/heads/builds/plugins.json"
+    "https://cdn.jsdelivr.net/gh/tOntOnbOuLii/GramFlix@builds/plugins.json"
   ]
 }
