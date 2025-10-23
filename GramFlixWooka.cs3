@@ -1,0 +1,65 @@
+package my.repo
+
+import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.utils.ExtractorLink
+
+class GramFlixWooka : MainAPI() {
+    override var mainUrl = "https://wookafr.dad"
+    override var name = "GramFlix Wooka"
+    override var lang = "fr"
+    override val hasMainPage = true
+
+    override suspend fun getMainPage(): HomePageResponse {
+        val films = scrapeList("$mainUrl/page/1/", isSeries = false)
+        val series = scrapeList("$mainUrl/streaming/series/page/1/", isSeries = true)
+        return HomePageResponse(
+            listOf(
+                HomePageList("WookaFR • Films", films),
+                HomePageList("WookaFR • Séries", series)
+            )
+        )
+    }
+
+    private suspend fun scrapeList(url: String, isSeries: Boolean): List<SearchResponse> {
+        val doc = app.get(url, referer = mainUrl).document
+        val cards = doc.select("article.TPost")
+        return cards.mapNotNull { c ->
+            val a = c.selectFirst(".Image a") ?: return@mapNotNull null
+            val href = a.absUrl("href")
+            val title = c.selectFirst(".Title a")?.text()?.ifBlank { null } ?: "Titre"
+            val img = c.selectFirst(".Image img")?.let { im ->
+                val v = im.attr("data-src").ifBlank { im.attr("src") }
+                if (v.startsWith("http")) v else im.absUrl("src")
+            }
+            if (isSeries) {
+                TvSeriesSearchResponse(title, href, name, TvType.TvSeries, posterUrl = img)
+            } else {
+                MovieSearchResponse(title, href, name, TvType.Movie, posterUrl = img)
+            }
+        }
+    }
+
+    override suspend fun load(url: String): LoadResponse {
+        val doc = app.get(url, referer = mainUrl).document
+        val title = doc.selectFirst(".Title")?.text()?.ifBlank { null } ?: doc.title().ifBlank { "Lecture" }
+        val iframe = doc.selectFirst(".TPlayer iframe[src]")?.attr("src")
+            ?: doc.selectFirst("iframe[src]")?.attr("src")
+        val absIframe = iframe?.let { if (it.startsWith("http")) it else app.get(url).document.location() + it }
+
+        return if (doc.selectFirst(".ClCaps, .AACont, .TPost .TpRwCont") != null) {
+            val ep = Episode(name = "Épisode", data = absIframe ?: url)
+            TvSeriesLoadResponse(title, url, name, TvType.TvSeries, episodes = listOf(ep))
+        } else {
+            MovieLoadResponse(title, url, name, TvType.Movie, dataUrl = absIframe ?: url)
+        }
+    }
+
+    override suspend fun loadLinks(
+        data: String,
+        isCasting: Boolean,
+        subtitleCallback: (SubtitleFile) -> Unit,
+        callback: (ExtractorLink) -> Unit
+    ): Boolean {
+        return loadExtractor(data, mainUrl, subtitleCallback, callback)
+    }
+}
