@@ -3,6 +3,6 @@
   "description": "Repo CloudStream (WookaFR)",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://cdn.jsdelivr.net/gh/tOntOnbOuLii/GramFlix@builds/plugins.json"
+    "https://cdn.jsdelivr.net/gh/tOntOnbOuLii/GramFlix@b99f75035c54d6904dc5be1d967cfd30a26e0185/plugins.json"
   ]
 }
