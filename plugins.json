@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/refs/heads/builds/GramFlixWooka.cs3",
+    "status": 1,
+    "version": 1,
+    "apiVersion": 1,
+    "name": "GramFlix Wooka",
+    "internalName": "gramflix_wooka",
+    "authors": ["Flo"],
+    "description": "WookaFR en dur",
+    "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
+    "tvTypes": ["Movie","TvSeries"],
+    "language": "fr",
+    "iconUrl": "",
+    "isAdult": false
+  }
+]
