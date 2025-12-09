@@ -6,14 +6,8 @@
         "fileSize": 10084,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "1J1FGF",
         "description": "Plugin GramFlix : 1J1FGF",
@@ -27,14 +21,8 @@
         "fileSize": 10109,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "AnimeSamaGF",
         "description": "Plugin GramFlix : AnimeSamaGF",
@@ -48,14 +36,8 @@
         "fileSize": 10134,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "CinePlateformeGF",
         "description": "Plugin GramFlix : CinePlateformeGF",
@@ -69,14 +51,8 @@
         "fileSize": 10109,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "CinePulseGF",
         "description": "Plugin GramFlix : CinePulseGF",
@@ -90,14 +66,8 @@
         "fileSize": 10094,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "CoFlixGF",
         "description": "Plugin GramFlix : CoFlixGF",
@@ -111,14 +81,8 @@
         "fileSize": 10099,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "FlemmixGF",
         "description": "Plugin GramFlix : FlemmixGF",
@@ -132,14 +96,8 @@
         "fileSize": 10124,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "FrenchStreamGF",
         "description": "Plugin GramFlix : FrenchStreamGF",
@@ -153,20 +111,15 @@
         "fileSize": 10084,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "HdssGF",
         "description": "Plugin GramFlix : HdssGF",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/HdssGF/HdssGF.cs3",
         "name": "HdssGF"
     },
+
     {
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlixExt2/main/logo_gf.png",
         "apiVersion": 1,
@@ -174,14 +127,8 @@
         "fileSize": 10099,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "MoiFlixGF",
         "description": "Plugin GramFlix : MoiFlixGF",
@@ -195,14 +142,8 @@
         "fileSize": 10094,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "NebryxGF",
         "description": "Plugin GramFlix : NebryxGF",
@@ -216,14 +157,8 @@
         "fileSize": 10124,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "PapaDuStreamGF",
         "description": "Plugin GramFlix : PapaDuStreamGF",
@@ -237,14 +172,8 @@
         "fileSize": 10109,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "PurStreamGF",
         "description": "Plugin GramFlix : PurStreamGF",
@@ -258,14 +187,8 @@
         "fileSize": 10124,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "SenpaiStreamGF",
         "description": "Plugin GramFlix : SenpaiStreamGF",
@@ -279,14 +202,8 @@
         "fileSize": 10104,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "WowFilmsGF",
         "description": "Plugin GramFlix : WowFilmsGF",
@@ -300,14 +217,8 @@
         "fileSize": 10104,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "XalaFlixGF",
         "description": "Plugin GramFlix : XalaFlixGF",
@@ -321,14 +232,8 @@
         "fileSize": 10114,
         "status": 1,
         "language": "fr",
-        "authors": [
-            "tOntOnbOuLii"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
+        "authors": ["tOntOnbOuLii"],
+        "tvTypes": ["Movie", "TvSeries", "Anime"],
         "version": 1,
         "internalName": "DarkiWorldGF",
         "description": "Plugin GramFlix : DarkiWorldGF",
