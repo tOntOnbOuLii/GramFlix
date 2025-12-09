@@ -1,0 +1,70 @@
+{
+  "name": "GramFlix",
+  "description": "Pack de 16 plugins CloudStream GF",
+  "plugins": [
+    {
+      "name": "1J1FGF",
+      "url": "1J1FGF/1J1FGF.cs3"
+    },
+    {
+      "name": "AnimeSamaGF",
+      "url": "AnimeSamaGF/AnimeSamaGF.cs3"
+    },
+    {
+      "name": "CinePlateformeGF",
+      "url": "CinePlateformeGF/CinePlateformeGF.cs3"
+    },
+    {
+      "name": "CinePulseGF",
+      "url": "CinePulseGF/CinePulseGF.cs3"
+    },
+    {
+      "name": "CoFlixGF",
+      "url": "CoFlixGF/CoFlixGF.cs3"
+    },
+    {
+      "name": "FlemmixGF",
+      "url": "FlemmixGF/FlemmixGF.cs3"
+    },
+    {
+      "name": "FrenchStreamGF",
+      "url": "FrenchStreamGF/FrenchStreamGF.cs3"
+    },
+    {
+      "name": "HdssGF",
+      "url": "HdssGF/HdssGF.cs3"
+    },
+    {
+      "name": "MoiFlixGF",
+      "url": "MoiFlixGF/MoiFlixGF.cs3"
+    },
+    {
+      "name": "NebryxGF",
+      "url": "NebryxGF/NebryxGF.cs3"
+    },
+    {
+      "name": "PapaDuStreamGF",
+      "url": "PapaDuStreamGF/PapaDuStreamGF.cs3"
+    },
+    {
+      "name": "PurStreamGF",
+      "url": "PurStreamGF/PurStreamGF.cs3"
+    },
+    {
+      "name": "SenpaiStreamGF",
+      "url": "SenpaiStreamGF/SenpaiStreamGF.cs3"
+    },
+    {
+      "name": "WowFilmsGF",
+      "url": "WowFilmsGF/WowFilmsGF.cs3"
+    },
+    {
+      "name": "XalaFlixGF",
+      "url": "XalaFlixGF/XalaFlixGF.cs3"
+    },
+    {
+      "name": "DarkiWorldGF",
+      "url": "DarkiWorldGF/DarkiWorldGF.cs3"
+    }
+  ]
+}
