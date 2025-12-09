@@ -1,0 +1,114 @@
+[
+  {
+    "name": "1J1FGF",
+    "pluginFile": "1J1FGF/1J1FGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "AnimeSamaGF",
+    "pluginFile": "AnimeSamaGF/AnimeSamaGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "CinePlateformeGF",
+    "pluginFile": "CinePlateformeGF/CinePlateformeGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "CinePulseGF",
+    "pluginFile": "CinePulseGF/CinePulseGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "CoFlixGF",
+    "pluginFile": "CoFlixGF/CoFlixGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "FlemmixGF",
+    "pluginFile": "FlemmixGF/FlemmixGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "FrenchStreamGF",
+    "pluginFile": "FrenchStreamGF/FrenchStreamGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "HdssGF",
+    "pluginFile": "HdssGF/HdssGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "MoiFlixGF",
+    "pluginFile": "MoiFlixGF/MoiFlixGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "NebryxGF",
+    "pluginFile": "NebryxGF/NebryxGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "PapaDuStreamGF",
+    "pluginFile": "PapaDuStreamGF/PapaDuStreamGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "PurStreamGF",
+    "pluginFile": "PurStreamGF/PurStreamGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "SenpaiStreamGF",
+    "pluginFile": "SenpaiStreamGF/SenpaiStreamGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "WowFilmsGF",
+    "pluginFile": "WowFilmsGF/WowFilmsGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "XalaFlixGF",
+    "pluginFile": "XalaFlixGF/XalaFlixGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  },
+  {
+    "name": "DarkiWorldGF",
+    "pluginFile": "DarkiWorldGF/DarkiWorldGF.cs3",
+    "version": 1,
+    "language": "KOTLIN",
+    "tvTypes": ["Movie", "TvSeries", "Anime"]
+  }
+]

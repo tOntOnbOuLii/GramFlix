@@ -1,0 +1,187 @@
+ETAPE 1 – SPECIFICATIONS DE GENERATION DU REPO CLOUDSTREAM (16 PLUGINS)
+NE PAS COMMENCER LE WEBPANEL A CETTE ETAPE.
+
+============================================================
+1. OBJECTIF GENERAL
+============================================================
+
+Créer un repo CloudStream propre et minimal contenant 16 plugins (un plugin par site).
+Chaque plugin doit être dans son propre dossier et lire ses paramètres (baseUrl, endpoints, selectors, headers…) depuis un fichier JSON de configuration externe.
+
+IMPORTANT :
+Aucune URL ne doit être codée en dur dans les plugins.
+Le code doit être pensé pour être piloté plus tard par une API WebPanel (étape 2).
+
+SOURCE OFFICIELLE :
+Je vais fournir l’URL du repo officiel CloudStream (source d’extensions).  
+Tu devras générer un repo 100% compatible CloudStream prêt à être utilisé comme source.  
+Dans ce repo, tu ne pousses QUE les fichiers .cs3 + plugins.json (et éventuellement config/sites.json).
+
+============================================================
+2. LISTE OFFICIELLE DES 16 SITES (NOMS EXACTS A RESPECTER)
+============================================================
+
+1J1FGF = https://1jour1film1125c.site/
+AnimeSamaGF = https://anime-sama.eu/
+CinePlateformeGF = https://www.cineplateforme.cc/
+CinePulseGF = https://riverlanes.site/cinepulse/
+CoFlixGF = https://coflix.fi/
+FlemmixGF = https://flemmix.one/
+FrenchStreamGF = https://french-stream.pink/
+HdssGF = https://hdss.now/
+MoiFlixGF = https://moiflix.org/
+NebryxGF = https://nebryx.fr/
+PapaDuStreamGF = https://papadustream.business/
+PurStreamGF = https://purstream.to/
+SenpaiStreamGF = https://senpai-stream.skin/
+WowFilmsGF = https://wowfilms1125c.site/
+XalaFlixGF = https://xalaflix.in/
+DarkiWorldGF = https://darkiworld15.com/
+
+Chaque site doit avoir :
+- un dossier portant exactement ce nom,
+- un fichier .cs3 portant exactement ce nom,
+- une entrée dans plugins.json portant exactement ce nom,
+- une clé dans config/sites.json portant exactement ce nom.
+
+AUCUNE MODIFICATION DE CES NOMS N’EST AUTORISÉE.
+
+============================================================
+3. STRUCTURE OBLIGATOIRE DU REPO CLOUDSTREAM
+============================================================
+
+Le repo GitHub final utilisé par CloudStream doit contenir UNIQUEMENT :
+
+/plugins.json
+/SiteName/SiteName.cs3
+/config/sites.json (configuration temporaire modifiable)
+
+Exemple :
+
+/plugins.json
+/config/sites.json
+/AnimeSamaGF/AnimeSamaGF.cs3
+/FrenchStreamGF/FrenchStreamGF.cs3
+/WowFilmsGF/WowFilmsGF.cs3
+...
+
+IMPORTANT :  
+NE PAS pousser dans ce repo :
+- le WebPanel
+- le backend
+- les scripts
+- les sources Kotlin
+- tout build ou répertoire technique
+- node_modules, vendor, bin, build, etc.
+
+Ce repo doit rester propre et minimal.
+
+============================================================
+4. DOSSIER PAR SITE
+============================================================
+
+Chaque site a son propre dossier :
+
+/SiteName/
+/SiteName/SiteName.cs3
+
+Aucun fichier ne doit être partagé entre sites.
+
+Les .cs3 peuvent embarquer leurs helpers internes si besoin.
+
+============================================================
+5. FONCTIONNALITES OBLIGATOIRES DE CHAQUE PLUGIN
+============================================================
+
+Chaque plugin doit gérer :
+
+- Films
+- Séries
+- Animés (si disponibles)
+- Recherche
+- Catégories (si disponibles)
+- Liste propre des saisons et épisodes
+- Extraction multi-lecteurs (tous les players disponibles)
+- Gestion VF / VOSTFR / VO si disponible
+- Récupération des qualités (si possible)
+- Headers / cookies / user-agent personnalisés
+- Endpoints AJAX / API internes
+- Code clair, propre, commenté, maintenable
+
+============================================================
+6. CONFIGURATION EXTERNE OBLIGATOIRE (PAS D’URL EN DUR)
+============================================================
+
+Les plugins lisent leur configuration dans :
+
+/config/sites.json
+
+Exemple :
+
+{
+  "FrenchStreamGF": {
+    "baseUrl": "https://french-stream.pink/",
+    "searchPath": "/recherche",
+    "ajaxEndpoint": "/wp-admin/admin-ajax.php"
+  },
+  "AnimeSamaGF": {
+    "baseUrl": "https://anime-sama.eu/"
+  }
+}
+
+Dans chaque plugin :
+
+val cfg = getSiteConfig("FrenchStreamGF")
+val baseUrl = cfg.baseUrl
+
+Le code doit être conçu pour que ce fichier JSON soit remplacé plus tard par une API WebPanel (étape 2).
+
+============================================================
+7. GENERATION DU FICHIER plugins.json
+============================================================
+
+Tu dois générer un plugins.json contenant les 16 plugins.
+
+Pour chaque plugin :
+
+{
+  "name": "FrenchStreamGF",
+  "pluginFile": "FrenchStreamGF/FrenchStreamGF.cs3",
+  "version": 1,
+  "language": "KOTLIN",
+  "tvTypes": ["Movie", "TvSeries", "Anime"]
+}
+
+============================================================
+8. QUALITE DU CODE
+============================================================
+
+Le code doit être :
+
+- propre
+- structuré
+- commenté
+- stable
+- lisible
+- réutilisable
+- prêt pour la future API WebPanel
+
+============================================================
+9. OBJECTIF FINAL ETAPE 1
+============================================================
+
+A la fin de cette étape, tu dois avoir :
+
+1) Un repo CloudStream minimal contenant :
+   - 16 dossiers
+   - 16 plugins .cs3
+   - plugins.json
+   - config/sites.json
+
+2) Aucune URL en dur.
+
+3) Plugins déjà compatibles WebPanel (étape 2).
+
+4) Un repo CloudStream propre, utilisable comme source dans CloudStream.
+
+FIN DU FICHIER – ETAPE 1 UNIQUEMENT

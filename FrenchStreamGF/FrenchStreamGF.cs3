@@ -1,0 +1,255 @@
+﻿import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.utils.*
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.json.Json
+import org.jsoup.nodes.Element
+import java.io.File
+import java.net.URLEncoder
+
+class SiteFrenchStreamGFPlugin : Plugin() {
+    override fun load() {
+        registerMainAPI(SiteFrenchStreamGFProvider())
+    }
+}
+
+class SiteFrenchStreamGFProvider : MainAPI() {
+    override var name = "FrenchStreamGF"
+    private val siteConfig by lazy { ConfigLoader.load("FrenchStreamGF") }
+    override var mainUrl = siteConfig.baseUrl.trimEnd('/')
+    override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries, TvType.Anime)
+    override val hasMainPage = true
+    override var lang = "fr"
+
+    override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
+        return GenericHandlers.getMainPage(this, siteConfig, page)
+    }
+
+    override suspend fun search(query: String): List<SearchResponse> {
+        return GenericHandlers.search(this, siteConfig, query)
+    }
+
+    override suspend fun load(url: String): LoadResponse? {
+        return GenericHandlers.load(this, siteConfig, url)
+    }
+
+    override suspend fun loadLinks(
+        data: String,
+        isCasting: Boolean,
+        subtitleCallback: (SubtitleFile) -> Unit,
+        callback: (ExtractorLink) -> Unit
+    ): Boolean {
+        return GenericHandlers.loadLinks(this, siteConfig, data, subtitleCallback, callback)
+    }
+}
+
+// Configuration et helpers specifiques a chaque plugin (aucune URL en dur)
+@Serializable
+data class SiteConfig(
+    val baseUrl: String = "",
+    val headers: Map<String, String> = emptyMap(),
+    val mainSections: List<SectionConfig> = emptyList(),
+    val search: SearchConfig? = null,
+    val detail: DetailConfig = DetailConfig(),
+    val players: List<PlayerConfig> = emptyList()
+)
+
+@Serializable
+data class SectionConfig(
+    val name: String = "Accueil",
+    val path: String = "/",
+    val pageParam: String? = null,
+    val resultSelector: String = "article",
+    val titleSelector: String = "a",
+    val linkAttr: String = "href",
+    val posterSelector: String? = "img",
+    val posterAttr: String = "src",
+    val type: TvType = TvType.TvSeries
+)
+
+@Serializable
+data class SearchConfig(
+    val path: String = "/",
+    val queryParam: String = "s",
+    val method: String = "GET",
+    val resultSelector: String = "article",
+    val titleSelector: String = "a",
+    val linkSelector: String = "a",
+    val linkAttr: String = "href",
+    val posterSelector: String? = "img",
+    val posterAttr: String = "src",
+    val type: TvType = TvType.TvSeries
+)
+
+@Serializable
+data class DetailConfig(
+    val titleSelector: String? = null,
+    val posterSelector: String? = null,
+    val plotSelector: String? = null,
+    val yearSelector: String? = null,
+    val episodeSelector: String? = null,
+    val episodeUrlAttr: String = "href",
+    val episodeTitleSelector: String? = null,
+    val seasonDefault: Int? = null
+)
+
+@Serializable
+data class PlayerConfig(
+    val selector: String = "iframe",
+    val urlAttr: String = "src",
+    val referer: String? = null
+)
+
+object ConfigLoader {
+    private val json = Json { ignoreUnknownKeys = true }
+    private var cache: Map<String, SiteConfig>? = null
+
+    fun load(siteKey: String): SiteConfig {
+        val data = cache ?: readConfig().also { cache = it }
+        return data[siteKey] ?: error("Configuration absente pour $siteKey")
+    }
+
+    private fun readConfig(): Map<String, SiteConfig> {
+        val raw = javaClass.getResourceAsStream("/config/sites.json")
+            ?.bufferedReader()?.use { it.readText() }
+            ?: runCatching { File("config/sites.json").readText() }.getOrElse {
+                error("Impossible de lire config/sites.json")
+            }
+        return json.decodeFromString<Map<String, SiteConfig>>(raw)
+    }
+}
+
+object GenericHandlers {
+    private fun String?.nullIfBlank(): String? = this?.takeIf { it.isNotBlank() }
+
+    private fun resolveType(type: TvType?): TvType = type ?: TvType.TvSeries
+
+    private fun buildAbsUrl(api: MainAPI, baseUrl: String, path: String): String {
+        val raw = if (path.startsWith("http")) path else baseUrl.trimEnd('/') + path
+        return api.fixUrl(raw)
+    }
+
+    private fun buildPagedUrl(api: MainAPI, baseUrl: String, section: SectionConfig, page: Int): String {
+        val path = section.path.replace("{page}", page.toString())
+        val url = section.pageParam?.let {
+            val sep = if (path.contains("?")) "&" else "?"
+            "$path$sep$it=$page"
+        } ?: path
+        return buildAbsUrl(api, baseUrl, url)
+    }
+
+    private fun buildSearchUrl(api: MainAPI, baseUrl: String, cfg: SearchConfig, query: String): String {
+        val encoded = URLEncoder.encode(query, "UTF-8")
+        val path = if (cfg.path.contains("{query}")) cfg.path.replace("{query}", encoded) else cfg.path
+        val raw = if (cfg.method.uppercase() == "GET") {
+            val sep = if (path.contains("?")) "&" else "?"
+            "$path$sep${cfg.queryParam}=$encoded"
+        } else path
+        return buildAbsUrl(api, baseUrl, raw)
+    }
+
+    private fun parseCard(
+        api: MainAPI,
+        element: Element,
+        titleSelector: String,
+        linkAttr: String,
+        posterSelector: String?,
+        posterAttr: String,
+        type: TvType?
+    ): SearchResponse? {
+        val linkElement = element.selectFirst(titleSelector) ?: return null
+        val title = linkElement.text().trim().ifBlank { return null }
+        val href = linkElement.attr(linkAttr).nullIfBlank() ?: return null
+        val poster = posterSelector?.let { element.selectFirst(it)?.attr(posterAttr).nullIfBlank() }?.let { api.fixUrl(it) }
+        return when (resolveType(type)) {
+            TvType.Movie -> newMovieSearchResponse(title, api.fixUrl(href), TvType.Movie) { this.posterUrl = poster }
+            TvType.Anime -> newAnimeSearchResponse(title, api.fixUrl(href), TvType.Anime) { this.posterUrl = poster }
+            else -> newTvSeriesSearchResponse(title, api.fixUrl(href), TvType.TvSeries) { this.posterUrl = poster }
+        }
+    }
+
+    suspend fun getMainPage(api: MainAPI, cfg: SiteConfig, page: Int): HomePageResponse {
+        if (cfg.mainSections.isEmpty()) return HomePageResponse(emptyList(), false)
+        val lists = cfg.mainSections.mapNotNull { section ->
+            val url = buildPagedUrl(api, cfg.baseUrl, section, page)
+            val doc = api.app.get(url, headers = cfg.headers).document
+            val items = doc.select(section.resultSelector).mapNotNull { element ->
+                parseCard(api, element, section.titleSelector, section.linkAttr, section.posterSelector, section.posterAttr, section.type)
+            }
+            HomePageList(section.name, items)
+        }
+        val hasNext = cfg.mainSections.any { it.pageParam != null }
+        return HomePageResponse(lists, hasNext)
+    }
+
+    suspend fun search(api: MainAPI, cfg: SiteConfig, query: String): List<SearchResponse> {
+        val searchCfg = cfg.search ?: return emptyList()
+        val url = buildSearchUrl(api, cfg.baseUrl, searchCfg, query)
+        val doc = api.app.get(url, headers = cfg.headers).document
+        return doc.select(searchCfg.resultSelector).mapNotNull { element ->
+            parseCard(api, element, searchCfg.titleSelector, searchCfg.linkAttr, searchCfg.posterSelector, searchCfg.posterAttr, searchCfg.type)
+        }
+    }
+
+    suspend fun load(api: MainAPI, cfg: SiteConfig, url: String): LoadResponse? {
+        val doc = api.app.get(url, headers = cfg.headers).document
+        val detailCfg = cfg.detail
+        val title = detailCfg.titleSelector?.let { doc.selectFirst(it)?.text()?.trim() }
+            ?: doc.selectFirst("title")?.text()?.trim()
+            ?: url
+        val poster = detailCfg.posterSelector?.let { doc.selectFirst(it)?.attr("src").nullIfBlank() }?.let { api.fixUrl(it) }
+        val plot = detailCfg.plotSelector?.let { doc.selectFirst(it)?.text()?.trim() }
+        val year = detailCfg.yearSelector?.let { doc.selectFirst(it)?.text()?.filter(Char::isDigit)?.toIntOrNull() }
+
+        val episodeSelector = detailCfg.episodeSelector
+        val episodes = if (episodeSelector.isNullOrBlank()) {
+            emptyList()
+        } else {
+            doc.select(episodeSelector).mapIndexedNotNull { index, el ->
+                val epUrl = el.attr(detailCfg.episodeUrlAttr).nullIfBlank() ?: return@mapIndexedNotNull null
+                val epName = detailCfg.episodeTitleSelector?.let { el.selectFirst(it)?.text()?.trim() }
+                Episode(
+                    name = epName ?: "Episode ${index + 1}",
+                    url = api.fixUrl(epUrl),
+                    episode = index + 1,
+                    season = detailCfg.seasonDefault
+                )
+            }
+        }
+
+        return if (episodes.isNotEmpty()) {
+            newTvSeriesLoadResponse(title, url, TvType.TvSeries, episodes) {
+                this.posterUrl = poster
+                this.plot = plot
+                this.year = year
+            }
+        } else {
+            newMovieLoadResponse(title, url, TvType.Movie) {
+                this.posterUrl = poster
+                this.plot = plot
+                this.year = year
+            }
+        }
+    }
+
+    suspend fun loadLinks(
+        api: MainAPI,
+        cfg: SiteConfig,
+        data: String,
+        subtitleCallback: (SubtitleFile) -> Unit,
+        callback: (ExtractorLink) -> Unit
+    ): Boolean {
+        if (cfg.players.isEmpty()) return false
+        val doc = api.app.get(data, headers = cfg.headers).document
+        var found = false
+        cfg.players.forEach { playerCfg ->
+            doc.select(playerCfg.selector).forEach { el ->
+                val link = el.attr(playerCfg.urlAttr).nullIfBlank() ?: return@forEach
+                val referer = playerCfg.referer ?: data
+                found = true
+                loadExtractor(api.fixUrl(link), referer, subtitleCallback, callback)
+            }
+        }
+        return found
+    }
+}
