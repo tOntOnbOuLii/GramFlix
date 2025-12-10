@@ -1,7 +1,7 @@
 {
   "name": "GramFlix Extensions",
   "description": "Pack d'extensions GramFlix pour Cloudstream",
-  "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/icon.png",
+  "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/plugins.json"
