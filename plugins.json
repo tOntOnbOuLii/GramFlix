@@ -2,12 +2,13 @@
     {
         "name":  "GramFlix Stream",
         "internalName":  "GramflixExtensions",
-        "version":  116,
+        "version":  117,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/gramflix-all.cs3",
         "language":  "fr",
         "tvTypes":  [
+                        "Movie",
                         "TvSeries",
                         "Anime"
                     ],
@@ -18,7 +19,7 @@
         "description":  "Pack regroupant les providers pour GramFlix",
         "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
-        "fileSize":  190886
+        "fileSize":  191799
     },
     {
         "name":  "1JOUR1FILMGF",
@@ -45,7 +46,7 @@
     {
         "name":  "AnimeSamaGF",
         "internalName":  "AnimeSamaGF",
-        "version":  116,
+        "version":  117,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/animesamagf.cs3",
@@ -83,7 +84,7 @@
         "description":  "EN DEVELOPPEMENT",
         "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
-        "fileSize":  190882
+        "fileSize":  191803
     },
     {
         "name":  "CinepulseGF",
