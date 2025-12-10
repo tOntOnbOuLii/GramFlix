@@ -18,7 +18,7 @@
         "description":  "Pack regroupant les providers pour GramFlix",
         "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
-        "fileSize":  190321
+        "fileSize":  190884
     },
     {
         "name":  "1JOUR1FILMGF",
@@ -83,7 +83,7 @@
         "description":  "EN DEVELOPPEMENT",
         "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
-        "fileSize":  190321
+        "fileSize":  190882
     },
     {
         "name":  "CinepulseGF",
