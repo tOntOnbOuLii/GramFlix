@@ -2,7 +2,7 @@
     {
         "name":  "GramFlix Stream",
         "internalName":  "GramflixExtensions",
-        "version":  113,
+        "version":  114,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/gramflix-all.cs3",
@@ -23,7 +23,7 @@
     {
         "name":  "1JOUR1FILMGF",
         "internalName":  "1jour1filmgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/1jour1filmgf.cs3",
@@ -45,7 +45,7 @@
     {
         "name":  "AnimeSamaGF",
         "internalName":  "AnimeSamaGF",
-        "version":  113,
+        "version":  114,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/animesamagf.cs3",
@@ -66,7 +66,7 @@
     {
         "name":  "CinePlateformeGF",
         "internalName":  "cineplateformegf",
-        "version":  113,
+        "version":  114,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/cineplateformegf.cs3",
@@ -88,7 +88,7 @@
     {
         "name":  "CinepulseGF",
         "internalName":  "cinepulsegf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/cinepulsegf.cs3",
@@ -110,7 +110,7 @@
     {
         "name":  "CoFliXGF",
         "internalName":  "coflixgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/coflixgf.cs3",
@@ -132,7 +132,7 @@
     {
         "name":  "FlemmixGF",
         "internalName":  "flemmixgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/flemmixgf.cs3",
@@ -154,7 +154,7 @@
     {
         "name":  "FrenchStreamGF",
         "internalName":  "frenchstreamgf",
-        "version":  113,
+        "version":  114,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/frenchstreamgf.cs3",
@@ -176,7 +176,7 @@
     {
         "name":  "HDssGF",
         "internalName":  "hdssgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/hdssgf.cs3",
@@ -198,7 +198,7 @@
     {
         "name":  "MoiFliXGF",
         "internalName":  "moiflixgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/moiflixgf.cs3",
@@ -220,7 +220,7 @@
     {
         "name":  "NebryxGF",
         "internalName":  "nebryxgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/nebryxgf.cs3",
@@ -242,7 +242,7 @@
     {
         "name":  "PapaduStreamGF",
         "internalName":  "papadustreamgf",
-        "version":  101,
+        "version":  102,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/papadustreamgf.cs3",
@@ -264,7 +264,7 @@
     {
         "name":  "PurstreamGF",
         "internalName":  "purstreamgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/purstreamgf.cs3",
@@ -286,7 +286,7 @@
     {
         "name":  "SenpaiStreamGF",
         "internalName":  "senpaistreamgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/senpaistreamgf.cs3",
@@ -308,7 +308,7 @@
     {
         "name":  "WowFilmsGF",
         "internalName":  "wowfilmsgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/wowfilmsgf.cs3",
@@ -330,7 +330,7 @@
     {
         "name":  "XalaFlixGF",
         "internalName":  "xalaflixgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/xalaflixgf.cs3",
@@ -352,7 +352,7 @@
     {
         "name":  "FstreamGF",
         "internalName":  "fstreamgf",
-        "version":  97,
+        "version":  98,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/fstreamgf.cs3",
