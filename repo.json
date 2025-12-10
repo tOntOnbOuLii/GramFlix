@@ -1,8 +1,0 @@
-{
-    "name": "GramFlix",
-    "description": "GramFlix GF Repository",
-    "manifestVersion": 1,
-    "pluginLists": [
-        "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/plugins.json"
-    ]
-}
