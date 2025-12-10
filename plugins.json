@@ -1,0 +1,375 @@
+﻿[
+    {
+        "name":  "GramFlix Stream",
+        "internalName":  "GramflixExtensions",
+        "version":  110,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/gramflix-all.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "Pack regroupant les providers pour GramFlix",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  187802
+    },
+    {
+        "name":  "1JOUR1FILMGF",
+        "internalName":  "1jour1filmgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/1jour1filmgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "FONCTIONNEL",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159936
+    },
+    {
+        "name":  "AnimeSamaGF",
+        "internalName":  "AnimeSamaGF",
+        "version":  110,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/animesamagf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Anime",
+                        "TvSeries"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  179709
+    },
+    {
+        "name":  "CinePlateformeGF",
+        "internalName":  "cineplateformegf",
+        "version":  110,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/cineplateformegf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159912
+    },
+    {
+        "name":  "CinepulseGF",
+        "internalName":  "cinepulsegf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/cinepulsegf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159924
+    },
+    {
+        "name":  "CoFliXGF",
+        "internalName":  "coflixgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/coflixgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159925
+    },
+    {
+        "name":  "FlemmixGF",
+        "internalName":  "flemmixgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/flemmixgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159927
+    },
+    {
+        "name":  "FrenchStreamGF",
+        "internalName":  "frenchstreamgf",
+        "version":  110,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/frenchstreamgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  179707
+    },
+    {
+        "name":  "HDssGF",
+        "internalName":  "hdssgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/hdssgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159929
+    },
+    {
+        "name":  "MoiFliXGF",
+        "internalName":  "moiflixgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/moiflixgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159910
+    },
+    {
+        "name":  "NebryxGF",
+        "internalName":  "nebryxgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/nebryxgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159923
+    },
+    {
+        "name":  "PapaduStreamGF",
+        "internalName":  "papadustreamgf",
+        "version":  98,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/papadustreamgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+        ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  187807
+    },
+    {
+        "name":  "PurstreamGF",
+        "internalName":  "purstreamgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/purstreamgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159923
+    },
+    {
+        "name":  "SenpaiStreamGF",
+        "internalName":  "senpaistreamgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/senpaistreamgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159938
+    },
+    {
+        "name":  "WowFilmsGF",
+        "internalName":  "wowfilmsgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/wowfilmsgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159926
+    },
+    {
+        "name":  "XalaFlixGF",
+        "internalName":  "xalaflixgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/xalaflixgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  159928
+    },
+    {
+        "name":  "FstreamGF",
+        "internalName":  "fstreamgf",
+        "version":  94,
+        "apiVersion":  1,
+        "status":  1,
+        "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/fstreamgf.cs3",
+        "language":  "fr",
+        "tvTypes":  [
+                        "Movie",
+                        "TvSeries",
+                        "Anime"
+                    ],
+        "authors":  [
+                        "ayza",
+                        "tOntOnbOuLii",
+                        "x-R0b0T-x"
+                    ],
+        "description":  "EN DEVELOPPEMENT",
+        "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "fileSize":  126799
+    }
+]

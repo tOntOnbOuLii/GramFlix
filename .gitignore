@@ -1,0 +1,57 @@
+# Build outputs
+.gradle/
+build/
+**/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Local data and temp files
+tmp/
+tmp_*
+*.tmp
+logcat*.txt
+tmp_patch.py
+note_local.txt
+
+# Panel runtime data and secrets
+tafili.fr/data/*
+!tafili.fr/data/rules.json
+tafili.fr/config.local.php
+
+# CI/workflows kept local
+.github/
+
+# Android/Gradle projects (keep local only)
+app/
+fstreamgf/
+gradle/
+gradlew
+gradlew.bat
+gradle.properties
+settings.gradle.kts
+build.gradle.kts
+consumer-rules.pro
+proguard-rules.pro
+
+# Keep webpanel local only
+webpanel/
+
+# Sensitive tokens
+token.txt
+
+# Misc local configs not needed on the repo
+manifest.json
+home.json
+hosters.json
+providers.json
+rules.json
+sites.txt
+fstreamgf_links.json
+fstreamgf.md
+FStreamzzProvider.cs3
