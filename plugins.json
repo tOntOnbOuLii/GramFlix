@@ -2,7 +2,7 @@
     {
         "name":  "GramFlix Stream",
         "internalName":  "GramflixExtensions",
-        "version":  137,
+        "version":  138,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/gramflix-all.cs3",
@@ -19,7 +19,7 @@
         "description":  "Pack regroupant les providers pour GramFlix",
         "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
-        "fileSize":  195174
+        "fileSize":  218347
     },
     {
         "name":  "1JOUR1FILMGF",
