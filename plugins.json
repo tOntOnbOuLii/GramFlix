@@ -89,7 +89,7 @@
     {
         "name":  "CinepulseGF",
         "internalName":  "cinepulsegf",
-        "version":  101,
+        "version":  102,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/cinepulsegf.cs3",
@@ -106,7 +106,7 @@
         "description":  "EN DEVELOPPEMENT",
         "repositoryUrl":  "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
-        "fileSize":  218351
+        "fileSize":  218340
     },
     {
         "name":  "CoFliXGF",
