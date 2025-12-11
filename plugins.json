@@ -2,7 +2,7 @@
     {
         "name":  "GramFlix Stream",
         "internalName":  "GramflixExtensions",
-        "version":  131,
+        "version":  132,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/gramflix-all.cs3",
@@ -46,7 +46,7 @@
     {
         "name":  "AnimeSamaGF",
         "internalName":  "AnimeSamaGF",
-        "version":  131,
+        "version":  132,
         "apiVersion":  1,
         "status":  1,
         "url":  "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/animesamagf.cs3",
