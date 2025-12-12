@@ -55,3 +55,6 @@ sites.txt
 fstreamgf_links.json
 fstreamgf.md
 FStreamzzProvider.cs3
+# Allow checked-in remote config bundle
+!remote-config/
+!remote-config/*.json
