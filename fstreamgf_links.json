@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "links": [
+        {
+            "provider": "Katrov",
+            "link": "https://titrov.fr",
+            "enabled": true
+        },
+        {
+            "provider": "SandStone",
+            "link": "https://1jour1film1125c.site",
+            "enabled": true
+        },
+        {
+            "provider": "FrenchStream",
+            "link": "https://french-stream.pink",
+            "enabled": true
+        },
+        {
+            "provider": "Frembed",
+            "link": "https://frembed.my",
+            "enabled": true
+        },
+        {
+            "provider": "BlackInk",
+            "link": "https://darkiworld15.com",
+            "enabled": true
+        }
+    ]
+}
