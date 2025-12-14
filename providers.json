@@ -4,105 +4,105 @@
         "1JOUR1FILM": {
             "name": "1JOUR1FILM",
             "baseUrl": "https://1jour1film1225.site",
-            "description": "test",
+            "description": "100% FONCTIONNEL",
             "active": true,
             "showOnHome": true
         },
         "AnimeSama": {
             "name": "Anime-Sama",
             "baseUrl": "https://anime-sama.eu",
-            "description": "FONCTIONNEL",
+            "description": "100% FONCTIONNEL",
             "active": true,
             "showOnHome": true
         },
         "CinePlateforme": {
             "name": "CinePlateforme",
             "baseUrl": "https://www.cineplateforme.cc",
-            "description": "FONCTIONNEL",
+            "description": "100% FONCTIONNEL",
             "active": true,
             "showOnHome": true
         },
         "Cinepulse": {
             "name": "Cinepulse",
             "baseUrl": "https://senpai-stream.co.im",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "CoFliX": {
             "name": "CoFliX",
             "baseUrl": "https://coflix.foo",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "Flemmix": {
             "name": "Flemmix",
             "baseUrl": "https://flemmix.one",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "FrenchStream": {
             "name": "French stream",
             "baseUrl": "https://french-stream.pink",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "HDss": {
             "name": "HDss",
             "baseUrl": "https://hdss.now",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "MoiFliX": {
             "name": "MoiFliX",
             "baseUrl": "https://moiflix.org",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "Nebryx": {
             "name": "Nebryx",
             "baseUrl": "https://nebryx.fr",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "PapaduStream": {
             "name": "PapaDuStream",
             "baseUrl": "https://papadustream.business",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "Purstream": {
             "name": "Purstream",
             "baseUrl": "https://purstream.to",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
             "baseUrl": "https://senpai-stream.co.im",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "WowFilms": {
             "name": "WoW-Films",
             "baseUrl": "https://wowfilms1125c.site",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         },
         "XalaFlix": {
             "name": "WalaFlix",
             "baseUrl": "https://xalaflix.in",
-            "description": "FONCTIONNEL",
+            "description": "EN DEVELOPPEMENT",
             "active": true,
             "showOnHome": true
         }
