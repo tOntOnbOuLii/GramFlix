@@ -50,11 +50,11 @@
             "embedSel": "iframe@src"
         },
         "FrenchStream": {
-            "searchPath": "?s=",
-            "searchParam": "s",
-            "itemSel": ".short",
-            "titleSel": ".short-title, .title, a",
-            "urlSel": ".short-poster@href, a@href",
+            "searchPath": "?search=",
+            "searchParam": "search",
+            "itemSel": ".poster, div.poster, .short-item, .short, article.shortstory, div.shortstory",
+            "titleSel": ".poster__title a, .short-title a, .short-title, .shortstory__title a, .shortstory__title, .title, h3 a, a",
+            "urlSel": "a@href",
             "embedSel": "iframe@src"
         },
         "HDss": {
