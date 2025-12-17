@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "slug": "FrenchStream",
+            "searchPath": "index.php?do=search&subaction=search&story=",
+            "fallbackSearchPath": "?s=",
+            "searchParam": "story",
+            "itemSel": ".short",
+            "titleSel": ".short-title, .title, a",
+            "urlSel": ".short-poster@href, a@href",
+            "embedButtons": ".player-option, [data-player]",
+            "embedVersionButtons": "[data-url], [data-url-default]",
+            "embedScripts": [
+                "playerUrls",
+                "episodesData"
+            ],
+            "versionsPriority": [
+                "vf",
+                "vff",
+                "vfq",
+                "vostfr",
+                "vo",
+                "vost"
+            ],
+            "hostPriority": [
+                "fsvid",
+                "vidzy",
+                "kakaflix",
+                "voe",
+                "dood",
+                "uqload",
+                "filemoon",
+                "netu",
+                "multiup"
+            ]
+        }
+    ]
+}
