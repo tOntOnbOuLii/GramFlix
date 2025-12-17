@@ -18,7 +18,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 2
+        "version": 1
     },
     {
         "name": "Anime-SamaGF",
@@ -128,7 +128,7 @@
     {
         "name": "FrenchstreamGF",
         "internalName": "frenchstreamgf",
-        "description": "EN DEVELOPPEMENT",
+        "description": "100% FONCTIONNEL",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/frenchstreamgf.cs3",
         "status": 1,
         "language": "fr",
