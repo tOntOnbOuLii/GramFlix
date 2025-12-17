@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "extractors": [
+        {
+            "name": "DoodsPro",
+            "mainUrl": "https://doods.pro",
+            "enabled": true
+        },
+        {
+            "name": "DoodsOZ",
+            "mainUrl": "https://d0o0d.com",
+            "enabled": true
+        },
+        {
+            "name": "Ds2play",
+            "mainUrl": "https://ds2play.com",
+            "enabled": true
+        },
+        {
+            "name": "Mela",
+            "mainUrl": "https://player.melaniezettofrais.online",
+            "enabled": true
+        },
+        {
+            "name": "BlackInk",
+            "mainUrl": "https://darkiworld15.com",
+            "enabled": true
+        },
+        {
+            "name": "FembedOne",
+            "mainUrl": "https://fembed.one",
+            "enabled": true
+        }
+    ]
+}
