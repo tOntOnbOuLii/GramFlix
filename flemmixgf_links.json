@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "links": [
+        {
+            "provider": "Flemmix",
+            "link": "https://flemmix.bond",
+            "enabled": true
+        }
+    ]
+}
