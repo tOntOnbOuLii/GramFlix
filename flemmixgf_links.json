@@ -5,11 +5,6 @@
             "provider": "Flemmix",
             "link": "https://flemmix.bond",
             "enabled": true
-        },
-        {
-            "provider": "Flemmix",
-            "link": "https://flemmix.one",
-            "enabled": false
         }
     ]
 }
