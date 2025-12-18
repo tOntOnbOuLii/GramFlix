@@ -192,7 +192,7 @@
         "name": "NebryxGF",
         "internalName": "nebryxgf",
         "description": "EN DEVELOPPEMENT",
-        "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/nebryxgf.cs3?nocache=3",
+        "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/nebryxgf.cs3",
         "status": 1,
         "language": "fr",
         "tvTypes": [
@@ -207,7 +207,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 3
+        "version": 4
     },
     {
         "name": "PapaDuStreamGF",
