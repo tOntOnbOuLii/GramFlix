@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "links": [
+        {
+            "provider": "Nebryx",
+            "link": "https://nebryx.fr",
+            "enabled": true
+        }
+    ]
+}
