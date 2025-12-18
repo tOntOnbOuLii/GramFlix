@@ -44,17 +44,17 @@
         "Flemmix": {
             "searchPath": "index.php?do=search&subaction=search&story=",
             "searchParam": "story",
-            "itemSel": ".poster, div.poster, .short-item, .short, article.shortstory, div.shortstory",
-            "titleSel": ".poster__title a, .short-title a, .short-title, .shortstory__title a, .shortstory__title, .title, h3 a, a",
+            "itemSel": ".item, .poster, div.poster, .short-item, .short, article.shortstory, div.shortstory",
+            "titleSel": ".title1, .title0, .poster__title a, .short-title a, .short-title, .shortstory__title a, .shortstory__title, .title, h3 a, a",
             "urlSel": "a@href",
             "embedSel": "iframe@src"
         },
         "FrenchStream": {
-            "searchPath": "?search=",
-            "searchParam": "search",
-            "itemSel": ".poster, div.poster, .short-item, .short, article.shortstory, div.shortstory",
-            "titleSel": ".poster__title a, .short-title a, .short-title, .shortstory__title a, .shortstory__title, .title, h3 a, a",
-            "urlSel": "a@href",
+            "searchPath": "?s=",
+            "searchParam": "s",
+            "itemSel": ".short",
+            "titleSel": ".short-title, .title, a",
+            "urlSel": ".short-poster@href, a@href",
             "embedSel": "iframe@src"
         },
         "HDss": {
