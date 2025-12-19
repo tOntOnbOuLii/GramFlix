@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "links": [
+        {
+            "provider": "DarkiWorld",
+            "link": "https://darkiworld15.com",
+            "enabled": true
+        }
+    ]
+}

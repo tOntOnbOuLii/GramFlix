@@ -36,6 +36,11 @@
             "baseUrl": "https://french-stream.pink",
             "showOnHome": true
         },
+        "DarkiWorld": {
+            "name": "DarkiWorld",
+            "baseUrl": "https://darkiworld15.com",
+            "showOnHome": true
+        },
         "HDss": {
             "name": "HDss",
             "baseUrl": "https://hdss.now",
