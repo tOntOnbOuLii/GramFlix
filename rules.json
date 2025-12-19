@@ -57,6 +57,14 @@
             "urlSel": ".short-poster@href, a@href",
             "embedSel": "iframe@src"
         },
+        "DarkiWorld": {
+            "searchPath": "?s=",
+            "searchParam": "s",
+            "itemSel": ".short",
+            "titleSel": ".short-title, .title, a",
+            "urlSel": ".short-poster@href, a@href",
+            "embedSel": "iframe@src"
+        },
         "HDss": {
             "searchPath": "index.php?do=search&subaction=search&story=",
             "searchParam": "story",
