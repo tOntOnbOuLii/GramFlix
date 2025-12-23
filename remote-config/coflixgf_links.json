@@ -3,7 +3,7 @@
     "links": [
         {
             "provider": "Coflix",
-            "link": "https://coflix.si",
+            "link": "https://coflix.nexus/",
             "enabled": true
         }
     ]
