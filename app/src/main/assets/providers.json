@@ -33,7 +33,7 @@
         },
         "FrenchStream": {
             "name": "French stream",
-            "baseUrl": "https://french-stream.pink",
+            "baseUrl": "https://fs-miroir6.lol",
             "showOnHome": true
         },
         "DarkiWorld": {
@@ -73,11 +73,11 @@
         },
         "WowFilms": {
             "name": "WoW-Films",
-            "baseUrl": "https://wowfilms1125c.site",
+            "baseUrl": "https://wowfilms1125b.site",
             "showOnHome": true
         },
         "XalaFlix": {
-            "name": "WalaFlix",
+            "name": "XalaFlix",
             "baseUrl": "https://xalaflix.in",
             "showOnHome": true
         }
