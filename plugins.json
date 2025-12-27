@@ -18,8 +18,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 99,
-        "fileSize": 238500
+        "version": 1
     },
     {
         "name": "Anime-SamaGF",
@@ -40,8 +39,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 23,
-        "fileSize": 238600
+        "version": 1
     },
     {
         "name": "CinePlateformeGF",
@@ -62,8 +60,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 192287
+        "version": 1
     },
     {
         "name": "CinepulseGF",
@@ -84,8 +81,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 220929
+        "version": 1
     },
     {
         "name": "CoFliXGF",
@@ -106,8 +102,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 96,
-        "fileSize": 238749
+        "version": 1
     },
     {
         "name": "FlemmixGF",
@@ -128,11 +123,10 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 37,
-        "fileSize": 252567
+        "version": 1
     },
     {
-        "name": "French streamGF",
+        "name": "FrenchstreamGF",
         "internalName": "frenchstreamgf",
         "description": "FONCTIONNEL",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/frenchstreamgf.cs3",
@@ -150,13 +144,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 24,
-        "fileSize": 160432
+        "version": 1
     },
     {
         "name": "DarkiWorldGF",
         "internalName": "darkiworldgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/darkiworldgf.cs3",
         "status": 1,
         "language": "fr",
@@ -172,13 +165,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 612279
+        "version": 1
     },
     {
         "name": "HDssGF",
         "internalName": "hdssgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/hdssgf.cs3",
         "status": 1,
         "language": "fr",
@@ -194,13 +186,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 94,
-        "fileSize": 159929
+        "version": 1
     },
     {
         "name": "MoiFliXGF",
         "internalName": "moiflixgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/moiflixgf.cs3",
         "status": 1,
         "language": "fr",
@@ -216,13 +207,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 188827
+        "version": 1
     },
     {
         "name": "NebryxGF",
         "internalName": "nebryxgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/nebryxgf.cs3",
         "status": 1,
         "language": "fr",
@@ -238,13 +228,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 12,
-        "fileSize": 232315
+        "version": 1
     },
     {
         "name": "PapaDuStreamGF",
         "internalName": "papadustreamgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/papadustreamgf.cs3",
         "status": 1,
         "language": "fr",
@@ -260,13 +249,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 188811
+        "version": 1
     },
     {
         "name": "PurstreamGF",
         "internalName": "purstreamgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/purstreamgf.cs3",
         "status": 1,
         "language": "fr",
@@ -282,13 +270,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 188809
+        "version": 1
     },
     {
         "name": "Senpai-StreamGF",
         "internalName": "senpaistreamgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/senpaistreamgf.cs3",
         "status": 1,
         "language": "fr",
@@ -304,13 +291,12 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 188810
+        "version": 1
     },
     {
         "name": "WoW-FilmsGF",
         "internalName": "wowfilmsgf",
-        "description": "FONCTIONNEL",
+        "description": "En dev",
         "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/wowfilmsgf.cs3",
         "status": 1,
         "language": "fr",
@@ -326,8 +312,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 188811
+        "version": 1
     },
     {
         "name": "WalaFlixGF",
@@ -348,7 +333,6 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 21,
-        "fileSize": 188809
+        "version": 1
     }
 ]
