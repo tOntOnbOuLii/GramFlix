@@ -31,7 +31,7 @@
         },
         "CoFliX": {
             "name": "CoFliX",
-            "baseUrl": "https://coflix.foo",
+            "baseUrl": "https://coflix.nexus",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -53,56 +53,56 @@
         "DarkiWorld": {
             "name": "DarkiWorld",
             "baseUrl": "https://darkiworld15.com",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "HDss": {
             "name": "HDss",
             "baseUrl": "https://hdss.now",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "MoiFliX": {
             "name": "MoiFliX",
             "baseUrl": "https://moiflix.org",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "Nebryx": {
             "name": "Nebryx",
             "baseUrl": "https://nebryx.fr",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "PapaduStream": {
             "name": "PapaDuStream",
             "baseUrl": "https://papadustream.press",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "Purstream": {
             "name": "Purstream",
             "baseUrl": "https://purstream.to",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
             "baseUrl": "https://senpai-stream.co.im",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "WowFilms": {
             "name": "WoW-Films",
             "baseUrl": "https://wowfilms1125c.site",
-            "description": "FONCTIONNEL",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         },
