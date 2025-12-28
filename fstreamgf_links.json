@@ -1,5 +1,5 @@
 {
-    "version": 21,
+    "version": 1,
     "links": [
         {
             "provider": "Katrov",
@@ -8,7 +8,7 @@
         },
         {
             "provider": "SandStone",
-            "link": "https://1jour1film1125c.site",
+            "link": "https://1jour1film1225b.site",
             "enabled": true
         },
         {
@@ -18,7 +18,7 @@
         },
         {
             "provider": "Frembed",
-            "link": "https://frembed.my",
+            "link": "https://frembed.life",
             "enabled": true
         },
         {
