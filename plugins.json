@@ -335,5 +335,27 @@
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
         "version": 1
+    },
+    {
+        "name": "FstreamGF",
+        "internalName": "fstreamgf",
+        "description": "FONCTIONNEL",
+        "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/fstreamgf.cs3",
+        "status": 1,
+        "language": "fr",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "authors": [
+            "tOntOnbOuLii",
+            "x-R0b0T-x"
+        ],
+        "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "apiVersion": 1,
+        "version": 21,
+        "fileSize": 126705
     }
 ]
