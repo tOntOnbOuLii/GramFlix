@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 22,
     "links": [
         {
             "provider": "Katrov",
@@ -24,6 +24,31 @@
         {
             "provider": "BlackInk",
             "link": "https://darkiworld15.com",
+            "enabled": true
+        },
+        {
+            "provider": "AnimeSama",
+            "link": "https://anime-sama.tv",
+            "enabled": true
+        },
+        {
+            "provider": "CinePlateforme",
+            "link": "https://www.cineplateforme.cc",
+            "enabled": true
+        },
+        {
+            "provider": "CoFliX",
+            "link": "https://coflix.nexus",
+            "enabled": true
+        },
+        {
+            "provider": "Flemmix",
+            "link": "https://flemmix.bond",
+            "enabled": true
+        },
+        {
+            "provider": "Nebryx",
+            "link": "https://nebryx.fr",
             "enabled": true
         }
     ]
