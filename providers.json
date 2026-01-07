@@ -94,7 +94,7 @@
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
-            "baseUrl": "https://senpai-stream.co.im",
+            "baseUrl": "https://senpai-stream.bike",
             "description": "En dev",
             "active": true,
             "showOnHome": true
