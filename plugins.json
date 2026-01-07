@@ -39,8 +39,7 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 2,
-        "fileSize": 263731
+        "version": 1
     },
     {
         "name": "CinePlateformeGF",
@@ -292,7 +291,8 @@
         "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
-        "version": 2
+        "version": 2,
+        "fileSize": 263731
     },
     {
         "name": "WoW-FilmsGF",
