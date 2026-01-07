@@ -40,7 +40,7 @@
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
         "version": 2,
-        "fileSize": 252788
+        "fileSize": 263731
     },
     {
         "name": "CinePlateformeGF",
@@ -293,7 +293,6 @@
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
         "version": 2
-        "fileSize": 263731
     },
     {
         "name": "WoW-FilmsGF",
