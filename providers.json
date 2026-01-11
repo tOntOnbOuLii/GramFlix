@@ -3,7 +3,7 @@
     "providers": {
         "1JOUR1FILM": {
             "name": "1JOUR1FILM",
-            "baseUrl": "https://1jour1film1225b.site",
+            "baseUrl": "https://1jour1film0126.site",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -22,9 +22,9 @@
             "active": true,
             "showOnHome": true
         },
-        "Cinepulse": {
-            "name": "Cinepulse",
-            "baseUrl": "https://senpai-stream.co.im",
+        "Muiflix": {
+            "name": "Muiflix",
+            "baseUrl": "https://muiflix.org",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -38,7 +38,7 @@
         },
         "Flemmix": {
             "name": "Flemmix",
-            "baseUrl": "https://flemmix.bond",
+            "baseUrl": "https://flemmix.art",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -80,7 +80,7 @@
         },
         "PapaduStream": {
             "name": "PapaDuStream",
-            "baseUrl": "https://papadustream.press",
+            "baseUrl": "https://papadustream.trade",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -101,15 +101,50 @@
         },
         "WowFilms": {
             "name": "WoW-Films",
-            "baseUrl": "https://wowfilms1125c.site",
+            "baseUrl": "https://wowfilms0126.site",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "XalaFlix": {
             "name": "WalaFlix",
-            "baseUrl": "https://xalaflix.men",
+            "baseUrl": "https://xalaflix.io/",
             "description": "FONCTIONNEL",
+            "active": true,
+            "showOnHome": true
+        },
+        "FanStream": {
+            "name": "FanStream",
+            "baseUrl": "https://fanstream.biz",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
+        },
+        "GogoFlix": {
+            "name": "GogoFlix",
+            "baseUrl": "https://gogoflix.homes",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
+        },
+        "Frembed": {
+            "name": "Frembed",
+            "baseUrl": "https://frembed.buzz",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
+        },
+        "FilmoFlix": {
+            "name": "FilmoFlix",
+            "baseUrl": "https://filmoflix.agency",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
+        },
+        "Movix": {
+            "name": "Movix",
+            "baseUrl": "https://movix.blog",
+            "description": "En dev",
             "active": true,
             "showOnHome": true
         }
