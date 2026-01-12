@@ -128,6 +128,14 @@
             "titleSel": ".title, a",
             "urlSel": "a@href",
             "embedSel": "iframe@src"
+        },
+        "Movix": {
+            "searchPath": "search?q=",
+            "searchParam": "q",
+            "itemSel": ".short",
+            "titleSel": ".short-title, .title, a",
+            "urlSel": ".short-poster@href, a@href",
+            "embedSel": "iframe@src, video@src"
         }
     }
 }
