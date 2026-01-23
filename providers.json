@@ -3,7 +3,7 @@
     "providers": {
         "1JOUR1FILM": {
             "name": "1JOUR1FILM",
-            "baseUrl": "https://1jour1film0126.site",
+            "baseUrl": "https://1jour1film0126b.site",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -38,7 +38,7 @@
         },
         "Flemmix": {
             "name": "Flemmix",
-            "baseUrl": "https://flemmix.art",
+            "baseUrl": "https://flemmix.irish",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -80,7 +80,7 @@
         },
         "PapaduStream": {
             "name": "PapaDuStream",
-            "baseUrl": "https://papadustream.trade",
+            "baseUrl": "https://papadustream.network",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -136,7 +136,7 @@
         },
         "FilmoFlix": {
             "name": "FilmoFlix",
-            "baseUrl": "https://filmoflix.agency",
+            "baseUrl": "https://filmoflix.page",
             "description": "En dev",
             "active": true,
             "showOnHome": true
