@@ -140,6 +140,13 @@
             "description": "En dev",
             "active": true,
             "showOnHome": true
+        },
+        "AfterDark": {
+            "name": "AfterDark",
+            "baseUrl": "https://afterdark.mom",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
         }
     }
 }
