@@ -81,9 +81,9 @@
             "name": "Externulls",
             "url": "https://*.externulls.com/*"
         },
-        "fembed": {
-            "name": "Fembed",
-            "url": "https://*.fembed.com/*, https://*.fembed.net/*"
+        "frembed": {
+            "name": "Frembed",
+            "url": "https://*.frembed.best/*"
         },
         "filechan": {
             "name": "FileChan",
