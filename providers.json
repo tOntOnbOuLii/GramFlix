@@ -31,7 +31,7 @@
         },
         "CoFliX": {
             "name": "CoFliX",
-            "baseUrl": "https://coflix.nexus",
+            "baseUrl": "https://coflix.bz",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -94,7 +94,7 @@
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
-            "baseUrl": "https://senpai-stream.bike",
+            "baseUrl": "https://senpai-stream.autos",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -106,30 +106,23 @@
             "active": true,
             "showOnHome": true
         },
-        "XalaFlix": {
-            "name": "WalaFlix",
-            "baseUrl": "https://xalaflix.io/",
-            "description": "FONCTIONNEL",
-            "active": true,
-            "showOnHome": true
-        },
         "FanStream": {
             "name": "FanStream",
-            "baseUrl": "https://fanstream.biz",
+            "baseUrl": "https://fanstream.best",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "GogoFlix": {
             "name": "GogoFlix",
-            "baseUrl": "https://gogoflix.homes",
+            "baseUrl": "https://gogoflix.icu",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "Frembed": {
             "name": "Frembed",
-            "baseUrl": "https://frembed.buzz",
+            "baseUrl": "https://frembed.best",
             "description": "En dev",
             "active": true,
             "showOnHome": true
