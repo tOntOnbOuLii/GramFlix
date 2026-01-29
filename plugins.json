@@ -439,5 +439,68 @@
         "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
         "apiVersion": 1,
         "version": 1
+    },
+    {
+        "name": "XalaflixGF",
+        "internalName": "xalaflixgf",
+        "description": "En dev",
+        "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/xalaflixgf.cs3",
+        "status": 1,
+        "language": "fr",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "authors": [
+            "tOntOnbOuLii",
+            "x-R0b0T-x"
+        ],
+        "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "apiVersion": 1,
+        "version": 1
+    },
+    {
+        "name": "SadisflixGF",
+        "internalName": "sadisflixgf",
+        "description": "En dev",
+        "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/sadisflixgf.cs3",
+        "status": 1,
+        "language": "fr",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "authors": [
+            "tOntOnbOuLii",
+            "x-R0b0T-x"
+        ],
+        "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "apiVersion": 1,
+        "version": 1
+    },
+    {
+        "name": "WookafrGF",
+        "internalName": "wookafrgf",
+        "description": "En dev",
+        "url": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/wookafrgf.cs3",
+        "status": 1,
+        "language": "fr",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "authors": [
+            "tOntOnbOuLii",
+            "x-R0b0T-x"
+        ],
+        "repositoryUrl": "https://github.com/tOntOnbOuLii/GramFlix",
+        "iconUrl": "https://raw.githubusercontent.com/tOntOnbOuLii/GramFlix/main/logo_gf.png",
+        "apiVersion": 1,
+        "version": 1
     }
 ]
