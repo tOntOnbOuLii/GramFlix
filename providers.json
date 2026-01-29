@@ -147,6 +147,27 @@
             "description": "En dev",
             "active": true,
             "showOnHome": true
+        },
+        "Xalaflix": {
+            "name": "Xalaflix",
+            "baseUrl": "https://xalaflix.cv",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
+        },
+        "Sadisflix": {
+            "name": "Sadisflix",
+            "baseUrl": "https://sadisflix-officiel.icu",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
+        },
+        "Wookafr": {
+            "name": "Wookafr",
+            "baseUrl": "https://wookafr.bid",
+            "description": "En dev",
+            "active": true,
+            "showOnHome": true
         }
     }
 }
