@@ -10,7 +10,7 @@
         },
         "AnimeSama": {
             "name": "Anime-Sama",
-            "baseUrl": "https://anime-sama.si",
+            "baseUrl": "https://anime-sama.tv",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
