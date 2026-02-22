@@ -31,14 +31,14 @@
         },
         "CoFliX": {
             "name": "CoFliX",
-            "baseUrl": "https://coflix.bz",
+            "baseUrl": "https://coflix.observer",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
         },
         "Flemmix": {
             "name": "Flemmix",
-            "baseUrl": "https://flemmix.irish",
+            "baseUrl": "https://flemmix.surf",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -52,7 +52,7 @@
         },
         "DarkiWorld": {
             "name": "DarkiWorld",
-            "baseUrl": "https://darkiworld15.com",
+            "baseUrl": "https://darkiworld2026.com",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -80,28 +80,28 @@
         },
         "PapaduStream": {
             "name": "PapaDuStream",
-            "baseUrl": "https://papadustream.network",
+            "baseUrl": "https://papadustream.taxi",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "Purstream": {
             "name": "Purstream",
-            "baseUrl": "https://purstream.to",
+            "baseUrl": "https://purstream.me",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
-            "baseUrl": "https://senpai-stream.autos",
+            "baseUrl": "https://senpai-stream.hair",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "WowFilms": {
             "name": "WoW-Films",
-            "baseUrl": "https://wowfilms0126.site",
+            "baseUrl": "https://wowfilms0226.site",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -115,21 +115,21 @@
         },
         "GogoFlix": {
             "name": "GogoFlix",
-            "baseUrl": "https://gogoflix.icu",
+            "baseUrl": "https://gogo-flix.art",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "Frembed": {
             "name": "Frembed",
-            "baseUrl": "https://frembed.best",
+            "baseUrl": "https://frembed.work",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "FilmoFlix": {
             "name": "FilmoFlix",
-            "baseUrl": "https://filmoflix.page",
+            "baseUrl": "https://filmoflix.money",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -164,7 +164,7 @@
         },
         "Wookafr": {
             "name": "Wookafr",
-            "baseUrl": "https://wookafr.bid",
+            "baseUrl": "https://wookafr.link",
             "description": "En dev",
             "active": true,
             "showOnHome": true
