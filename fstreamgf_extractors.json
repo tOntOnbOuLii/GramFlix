@@ -1,5 +1,5 @@
 {
-    "version": 21,
+    "version": 1,
     "extractors": [
         {
             "name": "DoodsPro",
@@ -23,12 +23,12 @@
         },
         {
             "name": "BlackInk",
-            "mainUrl": "https://darkiworld15.com",
+            "mainUrl": "https://darkiworld2026.com",
             "enabled": true
         },
         {
-            "name": "FembedOne",
-            "mainUrl": "https://fembed.one",
+            "name": "Frembed",
+            "mainUrl": "https://frembed.work/",
             "enabled": true
         }
     ]
