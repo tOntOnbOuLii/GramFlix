@@ -8,7 +8,7 @@
         },
         {
             "provider": "SandStone",
-            "link": "https://1jour1film0226.site",
+            "link": "https://1jour1film0326.site",
             "enabled": true
         },
         {
@@ -28,7 +28,7 @@
         },
         {
             "provider": "AnimeSama",
-            "link": "https://anime-sama.tv",
+            "link": "https://anime-sama.to",
             "enabled": true
         },
         {
@@ -38,17 +38,17 @@
         },
         {
             "provider": "CoFliX",
-            "link": "https://coflix.observer",
+            "link": "https://coflix.space/",
             "enabled": true
         },
         {
             "provider": "Flemmix",
-            "link": "https://flemmix.surf/",
+            "link": "https://flemmix.rent/",
             "enabled": true
         },
         {
             "provider": "Nebryx",
-            "link": "https://nebryx.fr",
+            "link": "https://nebryx.fr/streamflix",
             "enabled": true
         }
     ]
