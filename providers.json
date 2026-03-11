@@ -3,14 +3,14 @@
     "providers": {
         "1JOUR1FILM": {
             "name": "1JOUR1FILM",
-            "baseUrl": "https://1jour1film0126b.site",
+            "baseUrl": "https://1jour1film0326.site",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
         },
         "AnimeSama": {
             "name": "Anime-Sama",
-            "baseUrl": "https://anime-sama.tv",
+            "baseUrl": "https://anime-sama.to",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -31,7 +31,7 @@
         },
         "CoFliX": {
             "name": "CoFliX",
-            "baseUrl": "https://coflix.observer",
+            "baseUrl": "https://coflix.space",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -73,7 +73,7 @@
         },
         "Nebryx": {
             "name": "Nebryx",
-            "baseUrl": "https://nebryx.fr",
+            "baseUrl": "https://nebryx.fr/streamflix",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -87,21 +87,21 @@
         },
         "Purstream": {
             "name": "Purstream",
-            "baseUrl": "https://purstream.me",
+            "baseUrl": "https://purstream.co",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
-            "baseUrl": "https://senpai-stream.hair",
+            "baseUrl": "https://senpai-stream.baby",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "WowFilms": {
             "name": "WoW-Films",
-            "baseUrl": "https://wowfilms0226.site",
+            "baseUrl": "https://wowfilms0326.site",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -164,7 +164,7 @@
         },
         "Wookafr": {
             "name": "Wookafr",
-            "baseUrl": "https://wookafr.link",
+            "baseUrl": "https://wookafr.observer",
             "description": "En dev",
             "active": true,
             "showOnHome": true
