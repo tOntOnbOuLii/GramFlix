@@ -3,12 +3,12 @@
     "providers": {
         "1JOUR1FILM": {
             "name": "1JOUR1FILM",
-            "baseUrl": "https://1jour1film1225b.site",
+            "baseUrl": "https://1jour1film0326.site",
             "showOnHome": true
         },
         "AnimeSama": {
             "name": "Anime-Sama",
-            "baseUrl": "https://anime-sama.tv",
+            "baseUrl": "https://anime-sama.to",
             "showOnHome": true
         },
         "CinePlateforme": {
@@ -23,17 +23,17 @@
         },
         "CoFliX": {
             "name": "CoFliX",
-            "baseUrl": "https://coflix.foo",
+            "baseUrl": "https://coflix.space",
             "showOnHome": true
         },
         "Flemmix": {
             "name": "Flemmix",
-            "baseUrl": "https://flemmix.bond",
+            "baseUrl": "https://flemmix.surf",
             "showOnHome": true
         },
         "FrenchStream": {
             "name": "French stream",
-            "baseUrl": "https://fs-miroir6.lol",
+            "baseUrl": "https://french-stream.pink",
             "showOnHome": true
         },
         "DarkiWorld": {
@@ -53,32 +53,32 @@
         },
         "Nebryx": {
             "name": "Nebryx",
-            "baseUrl": "https://nebryx.fr",
+            "baseUrl": "https://nebryx.fr/streamflix",
             "showOnHome": true
         },
         "PapaduStream": {
             "name": "PapaDuStream",
-            "baseUrl": "https://papadustream.business",
+            "baseUrl": "https://papadustream.taxi",
             "showOnHome": true
         },
         "Purstream": {
             "name": "Purstream",
-            "baseUrl": "https://purstream.to",
+            "baseUrl": "https://purstream.co",
             "showOnHome": true
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
-            "baseUrl": "https://senpai-stream.co.im",
+            "baseUrl": "https://senpai-stream.baby",
             "showOnHome": true
         },
         "WowFilms": {
             "name": "WoW-Films",
-            "baseUrl": "https://wowfilms1125b.site",
+            "baseUrl": "https://wowfilms0326.site",
             "showOnHome": true
         },
         "XalaFlix": {
             "name": "XalaFlix",
-            "baseUrl": "https://xalaflix.in",
+            "baseUrl": "https://xalaflix.cv",
             "showOnHome": true
         }
     }
