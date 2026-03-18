@@ -3,7 +3,7 @@
     "providers": {
         "1JOUR1FILM": {
             "name": "1JOUR1FILM",
-            "baseUrl": "https://1jour1film0326.site",
+            "baseUrl": "https://1jour1film0326b.site",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -31,14 +31,14 @@
         },
         "CoFliX": {
             "name": "CoFliX",
-            "baseUrl": "https://coflix.space",
+            "baseUrl": "https://coflix.rodeo",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
         },
         "Flemmix": {
             "name": "Flemmix",
-            "baseUrl": "https://flemmix.surf",
+            "baseUrl": "https://flemmix.best",
             "description": "FONCTIONNEL",
             "active": true,
             "showOnHome": true
@@ -87,21 +87,21 @@
         },
         "Purstream": {
             "name": "Purstream",
-            "baseUrl": "https://purstream.co",
+            "baseUrl": "https://purstream.cc",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "SenpaiStream": {
             "name": "Senpai-Stream",
-            "baseUrl": "https://senpai-stream.baby",
+            "baseUrl": "https://senpai-stream.pics",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "WowFilms": {
             "name": "WoW-Films",
-            "baseUrl": "https://wowfilms0326.site",
+            "baseUrl": "https://wowfilms0326b.site",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -115,14 +115,14 @@
         },
         "GogoFlix": {
             "name": "GogoFlix",
-            "baseUrl": "https://gogo-flix.art",
+            "baseUrl": "https://gogo-flix.online",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "Frembed": {
             "name": "Frembed",
-            "baseUrl": "https://frembed.work",
+            "baseUrl": "https://frembed.bond",
             "description": "En dev",
             "active": true,
             "showOnHome": true
@@ -136,14 +136,14 @@
         },
         "Movix": {
             "name": "Movix",
-            "baseUrl": "https://movix.blog",
+            "baseUrl": "https://movix.rodeo",
             "description": "En dev",
             "active": true,
             "showOnHome": true
         },
         "AfterDark": {
             "name": "AfterDark",
-            "baseUrl": "https://afterdark.mom",
+            "baseUrl": "https://afterdark.best",
             "description": "Salut",
             "active": true,
             "showOnHome": true
@@ -164,7 +164,7 @@
         },
         "Wookafr": {
             "name": "Wookafr",
-            "baseUrl": "https://wookafr.observer",
+            "baseUrl": "https://wookafr.wales/",
             "description": "En dev",
             "active": true,
             "showOnHome": true
