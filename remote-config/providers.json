@@ -80,6 +80,11 @@
             "name": "WalaFlix",
             "baseUrl": "https://xalaflix.cv",
             "showOnHome": true
+        },
+        "SadisflixProvider": {
+            "name": "Sadisflix",
+            "baseUrl": "https://sadisflix-officiel.biz",
+            "showOnHome": true
         }
     }
 }
